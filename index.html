@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aloha Apparel</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.10/flickity.min.css" />
+    <script src="https://use.fontawesome.com/c8ab6a3114.js"></script>
+  </head>
+  
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="Images/aloha-logo.svg" alt="brand logo"/>
+      </div>
+      <div class="cart">  
+        <div>
+          <span id="cart-num"></span>
+          <img src="Images/cart-icon.svg" alt="cart icon"/>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#shop">SHOP</a>
+          </li>
+          <li>
+            <a href="#featured">FEATURED</a>
+          </li>
+          <li>
+            <a href="#updates">UPDATES</a></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="content">
+      <section>
+        <div class="banner">
+          <h4>New Collection</h4>
+          <h1>
+            <span class="h1-Playfairitalic">Spring/Summer  </span>
+            <span class="h1-Playfairbold"> 2016</span>
+          </h1>
+        </div>
+      </section>
+    
+      <section id="about">
+        <div class="styles">
+          <h3>
+            <span class="h3-Playfairitalic">Hand-Crafted </span>
+            <span class="h3-Playfairbold"> Styles</span>
+          </h3>
+          <p>
+            Aloha Apparel Co. sells only the finest ready-to-travel clothing.
+            Browse our current selection of products or sign-up for updates below.
+          </p>
+        </div>  
+      </section>
+         
+      <section class="gallery" id="shop">  
+        <div id="gallery-icon-mens" class="gallery-item gallery-lg">Men's</div>
+        <div id="gallery-icon-trends" class="gallery-item">Trends</div>
+        <div id="gallery-icon-glasses" class="gallery-item">Glasses</div>
+        <div id="gallery-icon-sale" class="gallery-item">Sale</div>
+        <div id="gallery-icon-bags" class="gallery-item">Bags</div>
+        <div id="gallery-icon-womens" class="gallery-item gallery-lg">Women's</div>
+      </section>
+    
+      <section>
+        <div class="products" id="featured">
+          <h2>
+            <span class="h2-Playfairitalic-h2">Most-Loved </span>
+            <span class="h2-Playfairbold-h2"> Products</span>
+          </h2>
+          <div class="main-carousel">
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/stretch-knit-dress.jpg" alt="stretch knit dress">
+              <h6>Dresses</h6>
+              <h4>Stretch Knit Dress</h4>
+              <h5>$169.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/cotton-blue-shirt.jpg" alt="blue cotton shirt">
+              <h6>Shirts</h6>
+              <h4>Cotton Blue Shirt</h4>
+              <h5>$89.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image"src="Images/checked-stretch-dress.jpg" alt="checked stretch dress">
+              <h6>Dresses</h6>
+              <h4>Checked Stretch Dress</h4>
+              <h5>$129.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
+              <h6>Bags</h6>
+              <h4>Blue Hipster Backpack</h4>
+              <h5>$69.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/demin-overall-shorts.jpg" alt="denim overall shorts">
+              <h6>Denim</h6>
+              <h4>Denim Overall Shorts</h4>
+              <h5>$89.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+              <h6>Dresses</h6>
+              <h4>Pink Dotted Dress</h4>
+              <h5>$99.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/blue-silk-dress.jpg" alt="blue-silk-dress">
+              <h6>Dresses</h6>
+              <h4>Blue Silk Dress</h4>
+              <h5>$119.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+            <div class="carousel-cell">
+              <img class="product-image" src="Images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt.">
+              <h6>Shirts</h6>
+              <h4>Cotton Yellow Tshirt</h4>
+              <h5>$39.00</h5>
+              <button type="submit">Add To Cart</button>
+            </div>
+          </div>
+        </div> 
+      </section>
+    
+      <section>
+        <div class="updates" id="updates">
+          <h2>
+            <span class="h2-Playfairitalic">Sign-up for  </span>
+            <span class="h2-Playfairbold"> Updates</span>  
+          </h2>
+          <p>
+            Stay updated on our latest product releases, be first to find out about
+            upcoming sales, and get free style tips from our blog. Unsubscribe at any time.
+          </p>
+          <form action="subscribe_button">
+            <input type="email" name="email" placeholder="Your Email">
+            <button type="submit"> Subscribe </button>
+          </form>
+        </div>  
+      </section>
+    
+      <footer>
+        <div class="info">
+          <div class="about">
+            © 2016 Aloha Apparel Co.
+            <br>
+            Powered by HTML and CSS.
+            <br>
+          </div>
+          <br>  
+          <div class="contact">
+            604-604-6040.
+            <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a>
+            <br>
+            <br>
+          </div>  
+          <div class="address">  
+            1490 W Broadway
+            <br>
+            Vancouver, BC, Canada
+          </div>   
+        </div>
+    
+        <div class="footer-list">
+          <ul>
+            <li>
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <span class="footer-icon-text">Facebook</span>
+            </li> 
+            <li>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <span class="footer-icon-text">Twitter</span>
+            </li> 
+            <li>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span class="footer-icon-text">Instagram</span>
+            </li> 
+            <li>
+              <i class="fa fa-pinterest" aria-hidden="true"></i>
+              <span class="footer-icon-text">Pinterest</span>
+            </li> 
+            <li>
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+              <span class="footer-icon-text">Google+</span>
+            </li> 
+          </ul>
+        </div>  
+      </footer>     
+    </div>
+    
+    <script src="jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.10/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script> 
+    
+  </body>
+</html>
