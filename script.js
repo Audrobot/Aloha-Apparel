@@ -22,10 +22,10 @@ $('a[href*="#"]')
         $('html, body').animate({
           scrollTop: target.offset().top - 100
         }, 1000, function() {
-        });
-      }
+      });
     }
-  });
+  }
+});
 
 $('form').submit(function(event) {
   event.preventDefault();

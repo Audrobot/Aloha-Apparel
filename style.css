@@ -252,6 +252,7 @@ li {
     font-family: 'Playfair Display', 'Times New Roman', 'Serif'; 
     font-size: 33px;
     margin-bottom: 5px;
+    color: #2d2d2d;
   }
 
   .h3-Playfairitalic {
@@ -399,6 +400,7 @@ li {
   .products h2 {
     text-align: center;
     margin: 10px 0px 60px;
+    color: #2d2d2d;
   }
 
   .products h4 {
