@@ -777,6 +777,10 @@ li {
       line-height: 33px;
     }
 
+    ul i {
+      min-width: 20px;
+    }
+
     .footer-icon-text {
       display: initial;
     }
