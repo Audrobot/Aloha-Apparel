@@ -219,7 +219,7 @@ li {
     margin: 11px 0;
   }
 
-  .h1-Playfairitalic {
+  .spring-summer-h1 {
     font-family: 'Playfair Display'; 
     font-weight: normal;
     font-style: normal;
@@ -229,7 +229,7 @@ li {
     margin: 10px 10px 20px;
   }
 
-  .h1-Playfairbold {
+  .year-h1 {
     font-family: 'Playfair Display'; 
     font-weight: normal;
     font-style: normal;
@@ -255,12 +255,12 @@ li {
     color: #2d2d2d;
   }
 
-  .h3-Playfairitalic {
+  .hand-crafted-h3 {
     font-weight: normal;
     font-style: italic;
   }
 
-  .h3-Playfairbold { 
+  .styles-h3 { 
     font-weight: bold;
     font-style: normal;
   }
@@ -431,7 +431,7 @@ li {
     margin-top: 15px;
   }
 
-  .h2-Playfairitalic-h2 {
+  .most-loved-h2 {
     font-family: 'Playfair Display'; 
     font-weight: lighter;
     font-style: italic;
@@ -439,7 +439,7 @@ li {
     font-stretch: extra-condensed;
   }
 
-  .h2-Playfairbold-h2 {
+  .products-h2 {
     font-family: 'Playfair Display'; 
     font-weight: bold;
     font-style: normal;
@@ -518,7 +518,7 @@ li {
     text-align: left;
   }
 
-  .h2-Playfairitalic {
+  .sign-up-h2 {
     font-family: 'Playfair Display'; 
     font-weight: lighter;
     font-style: italic;
@@ -528,7 +528,7 @@ li {
     text-shadow: 2px 2px gray;
   }
 
-  .h2-Playfairbold {
+  .updates-h2 {
     font-family: 'Playfair Display'; 
     font-weight: bold;
     font-style: normal;
